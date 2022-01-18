@@ -315,6 +315,6 @@ class EventsExtraction:
 
 
 
-#extractor = EventsExtraction()
-#datas = extractor.extract_main('虽然你做了坏事，但我觉得你是好人。一旦时机成熟，就坚决推行')
-#print(extractor.stats(datas))
+extractor = EventsExtraction()
+datas = extractor.extract_main('虽然你做了坏事，但我觉得你是好人。一旦时机成熟，就坚决推行')
+print(extractor.stats(datas))
